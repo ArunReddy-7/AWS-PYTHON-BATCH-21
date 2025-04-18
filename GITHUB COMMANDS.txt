@@ -1,0 +1,49 @@
+WHAT IS GIT?
+# Git is a version control system.
+
+It helps you:
+--------------
+# Track changes in your code.
+# Collaborate with others without messing up the codebase.
+# Revert to previous versions if something breaks.
+# Think of it like a time machine for your code.
+
+Key Features:
+--------------
+# Tracks every code change.
+# Allows branching and merging.
+# Works locally (no internet required).
+
+
+WHAT IS GITHUB?
+# GitHub is a cloud-based platform that hosts Git repositories.
+# It lets you share your Git-managed code online.
+# Helps in collaboration, especially in open-source and team projects.
+
+Key Features:
+---------------
+# Online code hosting (for Git repos).
+# Collaboration tools (issues, pull requests, reviews).
+# Integration with CI/CD, deployment, and more.
+
+
+
+GIT COMMANDS
+---------------
+# git status
+# git remote -v
+# git init
+# git clone "REPO_url"
+# git config --global user.name "username"
+# git config --global user.mail "usermail"
+# git config --global --list
+# git add .
+# git commit -m "comment"
+# git push / git push -u origin 
+# git pull
+# git fetch
+# git checkout branch_name
+# git checkout -b branch_name
+# git push origin branch_namehost
+# git checkout
+# git branch
