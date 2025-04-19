@@ -47,3 +47,32 @@ GIT COMMANDS
 # git push origin branch_namehost
 # git checkout
 # git branch
+# git stash 
+# git stash apply   /git stash apply stash@{1}
+# git stash pop
+# git stash list
+# git stash drop    / git stash drop stash@{0}
+# git stash clear
+# git revert <commit_Id>
+# git revert head  / head~1
+# git revert <commit_Id-1> <commit_Id_2>
+# git revert --no-commit <commit_ID>
+# git log
+# git log --graph
+# git log --oneline
+# git log -n 5
+# git rebash <BRANCH_NAME>
+# git diff <commit_Id>
+# git diff <commit_Id1> <commit_ID2> 
+# git reset --soft/hard/mixed <commit_Id>
+# git tag <tag_name>
+# git tag <tag-name> <commit-hash>
+# git show <tag_name>
+# git tag -d <tag-name>
+# git push origin <tag-name>
+# git push --tags
+# git push --delete origin <tag-name>
+# 
+# 
+# 
+# 
