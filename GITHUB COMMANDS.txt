@@ -72,7 +72,7 @@ GIT COMMANDS
 # git push origin <tag-name>
 # git push --tags
 # git push --delete origin <tag-name>
-# 
-# 
+# git show 
+# git blame <file_name>
 # 
 # 
