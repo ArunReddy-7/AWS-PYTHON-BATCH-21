@@ -61,7 +61,7 @@ GIT COMMANDS
 # git log --graph
 # git log --oneline
 # git log -n 5
-# git rebash <BRANCH_NAME>
+# git rebase <BRANCH_NAME>
 # git diff <commit_Id>
 # git diff <commit_Id1> <commit_ID2> 
 # git reset --soft/hard/mixed <commit_Id>
