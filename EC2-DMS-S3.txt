@@ -1,0 +1,126 @@
+WHAT IS INSTANCE?
+# Amazon EC2 (Elastic Compute Cloud) is a service provided by Amazon Web Services (AWS) that lets you run virtual servers in the cloud.
+
+Here’s a breakdown of what that means:
+--------------------------------------------------
+🔹 What EC2 Does:
+# Launch virtual machines (called EC2 instances)
+# Choose your own operating system, CPU, RAM, and storage
+# Run websites, applications, databases, or anything you'd run on a regular server
+# Scale up/down depending on traffic or workload
+
+🔹 Why People Use EC2:
+--------------------------
+# No need to buy physical servers
+# Pay only for what you use
+# Can scale automatically
+# Integrates easily with other AWS services like S3 (storage), RDS (databases), etc.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+WHAT IS RDS?
+# RDS stands for Amazon Relational Database Service.
+# RDS is a managed database service by AWS. 
+# It makes it easy to set up, operate, and scale relational databases in the cloud — without having to manually manage the database server.
+
+🔹 What It Does for You:
+-------------------------------
+# Handles backups, patching, and maintenance automatically
+
+# Supports popular databases like:
+1.MySQL
+2.PostgreSQL
+3.MariaDB
+4.Oracle
+5.SQL Server
+6.Amazon Aurora (AWS’s own high-performance engine)
+
+# Takes care of high availability and scaling
+
+🔹 Why People Use It:
+-------------------------
+# Saves time and effort (you don’t manage the database server directly)
+# Built-in security (encryption, access control)
+# Supports automatic failover and replication
+# Works well with other AWS services (like EC2, Lambda, etc.)
+
+🔹 Example:
+-----------------
+# Imagine you’re building a web app with a login system. You could:
+# Run the app on EC2
+# Store user data (like usernames and passwords) in a MySQL database managed by RDS
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+WHAT IS DMS?
+# DMS stands for AWS Database Migration Service.
+# AWS DMS helps you migrate databases quickly and securely — with minimal downtime — to AWS.
+
+🔹 What It Can Do:
+---------------------
+# Migrate on-premises databases to AWS
+# Migrate from one database engine to another (e.g., Oracle → PostgreSQL)
+# Replicate data continuously for real-time sync
+# Works with databases like:
+1.MySQL, PostgreSQL
+2.Oracle, SQL Server
+3.MongoDB, Amazon Aurora, and more
+
+🔹 Why It's Useful:
+-----------------------
+# You don’t need to stop your app — it keeps running during the migration
+# Super helpful for moving to RDS, Aurora, or Redshift
+# Handles schema conversion, data type mapping, and ongoing replication
+
+🔹 Example Use Case:
+----------------------
+# Let’s say you have a MySQL database running on your local server, and you want to move it to Amazon RDS for MySQL. DMS will:
+# Connect to your source DB
+# Migrate the data to RDS
+# Keep syncing any new changes until you're ready to cut over
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SOME MYSQL COMMANDS USE IN OS(LINUX)
+--------------------------------------
+SHOW DATABASES;                  -- List all databases
+CREATE DATABASE db_name;         -- Create a database
+USE db_name;                     -- Switch to a database
+DROP DATABASE db_name;           -- Delete a database
+SHOW TABLES;                     -- List tables in the current database
+DESCRIBE table_name;             -- Show structure of a table
+CREATE TABLE table_name (...);   -- Create a new table
+DROP TABLE table_name;           -- Delete a table
+SELECT * FROM table_name;               -- Show all data in a table
+INSERT INTO table_name (...) VALUES (...); -- Add new data
+UPDATE table_name SET ... WHERE ...;    -- Update data
+DELETE FROM table_name WHERE ...;       -- Delete data
+
+
+WHILE WE CONNECTING THE RDS IN LINUX SERVER 
+----------------------------------------------
+# SUDO YUM UPDATE -Y            ----- # Update all packages
+# SUDO YUM INSTALL MARIADB105   ------ # Install MariaDB 10.5 client (used to connect to MySQL/MariaDB servers)
+# mysql -h <target-endpoint-host> -P<PORT_NUMBER> -u <user> -p    ------ # Connect to the MySQL/MariaDB server (replace with real values
+# EXIT      --- # Exit the MySQL client when you're done
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
